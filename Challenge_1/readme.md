@@ -58,7 +58,7 @@ To crake this level first you call the await contract.info(); and it gives the i
 ```solidity
 pragma solidity ^0.8.0;
 ```
-Is a floating version of solidity and its not adviceable to use it ^. Its better you use a specific version of solidity to compile your code to avoid errors.
+Is a floating point version of solidity and it's not adviceable to use it ^. It's better you use a specific version of solidity to compile your code to avoid errors.
 ```solidity
 pragma solidity 0.8.0;
 ```
@@ -66,5 +66,5 @@ Is better.
 ```solidity
 string public password;
 ```
-password is a public variable and its meant to be secured, if the password was stored in a public variable the contract will not be prone to attack. 
-Always store important Data offchain or in a public variable.
+password is a public variable and it's meant to be secured, if the password was stored in a public variable the contract will not be prone to attack. 
+Always store important Data off-chain or in a public variable.
